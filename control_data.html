@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/boostrap/boostrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Icovid</title>
+    <style>
+        .back {
+            text-decoration: none;
+            font-size: large;
+        }
+
+        table {
+            margin-top: 20px;
+        }
+
+        .tambah {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card inter">
+
+        <div class="card-body">
+            <h3 class="card-title">Admin</h3>
+            <a href="index.html" class="card-subtitle mb-2 text-muted back">
+                <- <i class="fa fa-arrow"></i>back
+            </a>
+            <a href="form.html" class=" btn btn-success mb-2 tambah"><i class="fa fa-plus"></i></a>
+            <table class="table table-borderless">
+                <thead class="table-active">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nama</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Rumah Sakit</th>
+                        <th scope="col">Alamat</th>
+                        <th scope="col">Keterangan</th>
+                        <th scope="col">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Ujang Sukiman</td>
+                        <td>
+                            <p class="card bg-danger img-card box-primary-shadow text-white mb-0">Positif</p>
+                        </td>
+                        <td>RSUD Bandung</td>
+                        <td>Bandung</td>
+                        <td>-</td>
+                        <td> <a href="" class="btn btn-warning"><i class="fa fa-pen"></i> </a> <a href=""
+                                class="btn btn-danger btndelete"> <i class="fa fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ujeng Sukisna</td>
+                        <td>
+                            <p class="card bg-success img-card box-secondary-shadow text-white mb-0">Sembuh</p>
+                        </td>
+                        <td>RSUD Bandung</td>
+                        <td>Bandung</td>
+                        <td>-</td>
+                        <td> <a href="" class="btn btn-warning"><i class="fa fa-pen"></i> </a> <a href=""
+                                class="btn btn-danger btndelete"> <i class="fa fa-trash"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Ujong Suksud</td>
+                        <td>
+                            <p class="card bg-secondary img-card box-secondary-shadow text-white mb-0">Meninggal
+                            </p>
+                        </td>
+                        <td>RSUD Bandung</td>
+                        <td>Bandung</td>
+                        <td>-</td>
+                        <td> <a href="" class="btn btn-warning"><i class="fa fa-pen"></i> </a> <a href=""
+                                class="btn btn-danger btndelete"> <i class="fa fa-trash"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>Web Informatif Covid &#169; 2020, SMKN 4 Bandung</p>
+    </footer>
+</body>
+
+</html>
