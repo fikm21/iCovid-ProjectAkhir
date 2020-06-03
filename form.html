@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/boostrap/boostrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- My CSS -->
+
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>iCovid</title>
+    <style>
+        form {
+            margin-top: 20px;
+            margin-left: 5%;
+        }
+
+        .form {
+            margin: 0 auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+            width: 60%;
+            height: 500px;
+        }
+
+        .input-group {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card form">
+
+        <div class="card-body">
+            <h3 class="card-title">Tambah/Edit</h3>
+            <a href="control_data.html" class="card-subtitle mb-2 text-muted back">
+                <- <i class="fa fa-arrow"></i>back
+            </a>
+            <form action="" method="get">
+                <div class="input-group   col-sm-8 col-md-10">
+                    <div class="input-group-prepend ">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Nama</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+
+                </div>
+                <div class="input-group  col-sm-8 col-md-10">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">Status</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                        <option selected>Pilih...</option>
+                        <option value="1">Positif</option>
+                        <option value="2">Sembuh</option>
+                        <option value="3">Meninggal</option>
+                    </select>
+                </div>
+                <div class="input-group   col-sm-8 col-md-10">
+                    <div class="input-group-prepend ">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Rumah Sakit</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group   col-sm-8 col-md-10" style="height: 100px;">
+                    <div class="input-group-prepend ">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Alamat</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default" style="height: 100px;">
+                </div>
+                <div class="input-group   col-sm-8 col-md-10">
+                    <div class="input-group-prepend ">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Keterangan</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+        </div>
+        <button type="submit" class=" btn btn-success">Submit</button>
+        </form>
+
+    </div>
+    </div>
+    <footer>
+        <p>Web Informatif Covid &#169; 2020, SMKN 4 Bandung</p>
+    </footer>
+</body>
+
+</html>
