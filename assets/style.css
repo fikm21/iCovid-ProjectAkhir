@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* responsive */
+@media (max-width: 576px) {
+    .box {
+        margin-top: 10px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* data-global */
+.row {
+    margin: 0 auto;
+}
+
+.box {
+    margin-top: 10px;
+}
+
+/* end data-g */
+/* nav */
+h3 {
+    margin-left: 20px;
+}
+
+.control {
+    float: right;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 83%;
+}
+
+/* end nav */
+/* data-prov */
+.pro {
+    margin-top: 10px;
+
+}
+
+
+.prov {
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    width: 90%;
+    overflow: scroll;
+    height: 800px;
+}
+
+.col {
+    margin-top: 10px;
+}
+
+/* end data-p */
+/* data-indo */
+
+.indo {
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    width: 90%;
+}
+
+/* end data-i */
+/* data-international */
+.inter {
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    width: 90%;
+    overflow: scroll;
+    height: 500px;
+}
+
+/* end data-int */
+/* jumbotron */
+.jumbotron {
+    background-color: rgb(0, 121, 228);
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+/* footer */
+footer {
+    background-color: #0038BA;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
